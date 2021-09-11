@@ -1,0 +1,18 @@
+{
+  "name": "nowplaying-gh-tracker",
+  "version": "0.1.0",
+  "description": "An GitHub repo for all those shills",
+  "main": "nowplaying-fm1ph.js",
+  "scripts": {
+    "start": "node ./lib/gh-app.js",
+    "doppler:start": "doppler run -- npm start"
+  },
+  "author": "Andrei Jiroh Eugenio Halili <ajhalili2006@gmail.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@octokit/auth-app": "^3.6.0",
+    "@octokit/core": "^3.5.1",
+    "dotenv": "^10.0.0",
+    "icecast-song-recognition": "^1.0.2"
+  }
+}
